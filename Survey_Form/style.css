@@ -1,0 +1,60 @@
+.container {
+    margin: 2% 2% 2% 2%;
+    border-width: 2%;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+}
+
+#title {
+    font-size: 2rem;
+}
+
+#description {
+    font-size: 1.23rem;
+    text-align: left;
+    margin: 2% 2% 2% 2%;
+}
+
+.form-container {
+    text-align: left;
+    margin: 2% 2% 2% 2%;
+}
+
+#survey-form {
+    margin: 2% 2% 2% 2%;
+}
+
+#name,
+#email,
+#number {
+    font-size: 1rem;
+    display: inline-block;
+    width: 240px;
+    text-align: justify;
+}
+
+#name-label,
+#email-label,
+#number-label {
+    display: inline-block;
+    font-size: 1rem;
+    width: 100px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+textarea {
+    display: inline-block;
+    font-size: 1rem;
+    margin-left: 10px;
+    width: 300px;
+}
+
+#submit {
+    display: inline-block;
+    font-size: 1rem;
+    width: 100px;
+    margin-left: 10px;
+    text-align: left;
+}

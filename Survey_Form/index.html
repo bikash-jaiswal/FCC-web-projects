@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Online Application</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="title">Submit Application</h1>
+        <p id="description">Welcome to the online application for Permanent Residence at Moon. Please fill out the following form and provide as much information as possible.
+        </p>
+
+
+        <div class="form-container">
+            <h3>* indicates a required field.</h3>
+            <form id="survey-form" action="#">
+                <fieldset>
+                    <legend>Personal information:</legend>
+
+                    <label for="name" id="name-label">*First Name: </label>
+                    <input id="name" type="text" name="firstname" placeholder="Enter you First Name." required><br><br>
+
+                    <label for="name" id="name-label">Last Name: </label>
+                    <input id="name" type="text" name="lastname" placeholder="Enter your Last Name." required><br><br>
+
+                    <label for="email" id="email-label">*Email: </label>
+                    <input id="email" type="email" name="email" placeholder="Enter your Email." required><br><br>
+
+                    <label for="name" id="number-label">Age: </label>
+                    <input id="number" type="number" name="age" min="18" max="70" value="18" placeholder="Enter your Age." required><br><br>
+                    <!--dropdown-->
+                    <label id="name-label"> Nationality: </label>
+                    <select id="dropdown" name="country">
+                        <option value="None">---</option>
+                        <option value="USA">USA</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Nepal">Nepal</option>
+                    </select><br><br>
+                    <!--radio-->
+                    <label for="sex" id="name-label">Sex: </label>
+                    <input type="radio" name="gender" value="1">Female </input>
+                    <input type="radio" name="gender" value="1">Male </input>
+                    <input type="radio" name="gender" value="1">LGBT </input>
+                    <br><br>
+
+                    <!--checkbox-->
+                    <label for="status" id="name-label">Status: </label>
+                    <label><input value="1" type="checkbox" name="stat" value="Single"> Single</label>
+                    <label><input value="1" type="checkbox" name="stat" value="Married"> Married</label>
+                    <label><input value="1" type="checkbox" name="stat" value="Divorced"> Divorced</label>
+                    <label><input value="1" type="checkbox" name="stat" value="Widow"> Widow</label>
+                    <br><br>
+
+                    <label for="employed" id="name-label">Employed: </label>
+                    <input value="2" type="checkbox" name="job" value="self-employed"> Self-employed
+                    <input value="2" type="checkbox" name="job" value="Startup"> Startup
+                    <input value="2" type="checkbox" name="job" value="MNC"> MNC
+                    <input value="2" type="checkbox" name="job" value="MSC"> MSC
+                    <br><br>
+
+                    <!--comments-->
+                    <label id="name-label">Comments: </label><br> <br>
+                    <textarea rows="4" cols="50" placeholder="Write us your feedback."></textarea><br><br>
+                    <button id="submit" type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+
+</html>
