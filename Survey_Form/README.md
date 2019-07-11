@@ -1,1 +1,1 @@
-![Live display](/survey.png)
+![Survey Form](survey.png?raw=true)
