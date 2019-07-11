@@ -1,6 +1,10 @@
+* {
+    margin: 0%;
+    background-color: whitesmoke;
+}
+
 .container {
-    margin: 2% 2% 2% 2%;
-    border-width: 2%;
+    margin: 5% 10% 0% 10%;
     border-color: black;
     border-style: solid;
     text-align: center;
@@ -18,11 +22,18 @@
 
 .form-container {
     text-align: left;
-    margin: 2% 2% 2% 2%;
+}
+
+.form-container>h3 {
+    padding-left: 2%;
+}
+
+fieldset {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6), 0 4px 4px rgba( 0, 0, 0, 0.4);
 }
 
 #survey-form {
-    margin: 2% 2% 2% 2%;
+    margin: 1% 1% 1% 1%;
 }
 
 #name,
@@ -30,8 +41,8 @@
 #number {
     font-size: 1rem;
     display: inline-block;
-    width: 240px;
-    text-align: justify;
+    width: 200px;
+    text-align: left;
 }
 
 #name-label,
@@ -44,6 +55,12 @@
     text-align: left;
 }
 
+.radio-button {
+    display: inline-block;
+    max-width: 100px;
+    max-height: 100px;
+}
+
 textarea {
     display: inline-block;
     font-size: 1rem;
@@ -52,9 +69,20 @@ textarea {
 }
 
 #submit {
+    background-color: black;
+    color: antiquewhite;
     display: inline-block;
     font-size: 1rem;
     width: 100px;
-    margin-left: 10px;
-    text-align: left;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6), 0 4px 4px rgba( 0, 0, 0, 0.4);
+}
+
+@media(max-width:450px) {
+    .container {
+        margin: 0% 0% 0% 0%;
+    }
+    .container>fieldset {
+        padding: auto 0px auto 0px
+    }
 }
