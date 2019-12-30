@@ -1,3 +1,15 @@
 html{
     background-color: azure;
+   margin: -10px;
+}
+
+.header{
+    background-color: black;
+    text-align: center;
+    font-size: 25px;
+    color: beige;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
 }
