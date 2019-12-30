@@ -137,6 +137,12 @@ footer {
     margin-right: 2%;
 }
 
+#contact {
+    min-height: 615px;
+    background-color: black;
+    color: white;
+}
+
 @media(max-width:650px) {
     #video {
         width: 70%;
