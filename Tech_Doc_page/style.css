@@ -1,13 +1,47 @@
 body{
     background-color: rgba(0, 0, 0, 0.856);
     color: green;
+    display: flex;
+    height: 600px;
+    overflow: hidden;
+    
+    
 }
 #main-doc{
-    display: flex;
-    flex-direction: column;
+    margin-bottom: 0px;
+    flex:2;
+    
 
 }
-header{
-    font-size: 1.5em;
-    text-align: center;
+.main-section > header{
+    font-size: 3rem;
+    text-align: left;
+    margin-left: 1rem;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.377);
+    width: auto;
+    height: 700px;
+    border-right: rgb(0, 204, 255) 5px solid;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    min-height: 0px;
+}
+nav >.nav-header{
+    font-size: 2rem;
+}
+
+nav > .nav-link{
+    color:green;
+    font-size: 1.3rem;
+    text-align: left;
+    padding: 1rem;
+    margin: 0.1rem 0.1rem 0.1rem 0.1rem;
+    border: 0.5rem 0 0.5rem 0;
+    border-color: rgba(18, 81, 92, 0.884);
+    border-style: solid;
+    justify-content: space-around;
+    
 }
