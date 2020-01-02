@@ -1,0 +1,13 @@
+body{
+    background-color: rgba(0, 0, 0, 0.856);
+    color: green;
+}
+#main-doc{
+    display: flex;
+    flex-direction: column;
+
+}
+header{
+    font-size: 1.5em;
+    text-align: center;
+}
