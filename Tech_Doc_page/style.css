@@ -1,38 +1,48 @@
 body{
     background-color: rgba(0, 0, 0, 0.856);
     color: green;
-    display: flex;
-    overflow: hidden;
-    
-    
+    margin: 0px;
+    padding: 0px;
 }
 #main-doc{
-    margin-bottom: 0px;
-    flex:2;
-    
+    background-color: rgba(0, 0, 0, 0.856);
+    position: absolute;
+    margin-left: 15rem;
+    padding: 20px;
+    margin-bottom: 110px;
+    text-align: justify;
 
 }
+
 .main-section > header{
     font-size: 3rem;
     text-align: left;
     margin-left: 1rem;
 }
 
-nav{
-    background-color: rgba(0, 0, 0, 0.377);
+#navbar{
+    background-color: rgba(36, 23, 150, 0.219);
+    width: 15rem;
+    position: fixed; 
+   
+}
+
+#navbar >.nav-header{
+    font-size: 2rem;
+    text-align: center;
+}
+
+#navbar >.nav-div{
     width: auto;
-    height: 700px;
-    border-right: rgb(0, 204, 255) 5px solid;
+    height: 590px;
     display: flex;
     flex-direction: column;
     overflow-y: auto;
-    min-height: 0px;
-}
-nav >.nav-header{
-    font-size: 2rem;
+  
 }
 
-nav > .nav-link{
+
+.nav-div > .nav-link{
     color:green;
     font-size: 1.3rem;
     text-align: left;
